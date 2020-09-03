@@ -1,7 +1,8 @@
 {
 	"name": "cvant-chat",
 	"engines": {
-		"node": "13.10.1"
+		"node": "13.10.1",
+		"npm": ">=6.0.0"
 	},
 	"version": "1.0.0",
 	"description": "CVanT Chat.",
