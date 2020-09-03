@@ -1,0 +1,28 @@
+{
+	"name": "cvant-chat",
+	"version": "1.0.0",
+	"description": "CVanT Chat.",
+	"main": "./main/index.js",
+	"scripts": {},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ClintFlames/cvant-chat.git"
+	},
+	"author": "CVanT",
+	"license": "SEE LICENSE IN LICENSE FILE",
+	"bugs": {
+		"url": "https://github.com/ClintFlames/cvant-chat/issues"
+	},
+	"homepage": "https://github.com/ClintFlames/cvant-chat#readme",
+	"dependencies": {
+		"extend-node": "^1.0.0",
+		"express": "^4.17.1",
+		"socket.io": "^2.3.0"
+	},
+	"devDependencies": {
+		"eslint": "^7.7.0",
+		"eslint-config-airbnb": "^18.2.0",
+		"eslint-plugin-html": "^6.0.3",
+		"eslint-plugin-import": "^2.22.0"
+	}
+}

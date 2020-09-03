@@ -1,0 +1,73 @@
+{
+		"env": {
+				"browser": true,
+				"es2020": true,
+				"node": true
+		},
+		"globals": {
+			"tool": "readonly",
+			"io": "readonly",
+			"socket": "readonly"
+		},
+		"extends": ["eslint:recommended", "airbnb/base"],
+		"parserOptions": {
+				"ecmaVersion": 2020
+		},
+		"rules": {
+				/*"linebreak-style": [
+						"error",
+						"unix"
+				],,
+				"semi": [
+						"error",
+						"always"
+				],
+				"no-redeclare": [
+						"error",
+						{ "builtinGlobals": true }
+				],
+				"no-compare-neg-zero": "error",
+				"for-direction": "error",
+				"getter-return": [
+						"error",
+						{ "allowImplicit": false }
+				],
+				"no-async-promise-executor": "error",
+				"no-await-in-loop": "error",
+				"no-cond-assign": [
+						"error",
+						"always"
+				],
+				"no-constant-condition": [
+						"error",
+						{ "checkLoops": false }
+				],
+				"no-control-regex": "off",
+				"no-debugger": "error",
+				"no-var": "error",
+				"no-const-assign": "error",*/
+				"indent": ["error", "tab"],
+				"quotes": ["error",	"double"],
+				"one-var": ["error", "always"],
+				"operator-linebreak": ["error", "after"],
+				"array-bracket-spacing": ["error", "always"],
+				
+				"no-restricted-globals": "off",
+				"no-tabs": "off",
+				"no-console": "off",
+				"eol-last": "off",
+				"global-require": "off",
+				"no-restricted-syntax": "off",
+				"guard-for-in": "off",
+				"import/no-dynamic-require": "off",
+				"eqeqeq": "off",
+				"comma-dangle": "off",
+				"no-plusplus": "off",
+				"no-extend-native": "off",
+				"no-nested-ternary": "off",
+				"no-param-reassign": "off",
+				"object-curly-newline": "off",
+				"no-unused-vars": "off",
+				"no-alert": "off"
+		}
+}
