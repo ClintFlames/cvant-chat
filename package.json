@@ -1,5 +1,8 @@
 {
 	"name": "cvant-chat",
+	"engines": {
+		"node": "13.10.1"
+	},
 	"version": "1.0.0",
 	"description": "CVanT Chat.",
 	"main": "./main/index.js",
