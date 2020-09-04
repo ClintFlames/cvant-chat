@@ -1,7 +1,7 @@
 // Set up variables.
 global.tool = require("../extend-node").load();
 const app = require("express")(),
-	server = require("http").createServer(app);
+	server = require("https").createServer(app);
 
 // Set up "Express" server static.
 app.use(require("express").static(tool.string.pathFix(`${__dirname}/web`)));
@@ -13,7 +13,7 @@ require("./server/index.js")(app, require("socket.io")(server));
 server.listen(
 	(3000 || process.env.port),
 	"0.0.0.0",
-	() => console.log("Run \"http\" server.")
+	() => console.log("Run \"https\" server.")
 );
 
 require("./parser");
