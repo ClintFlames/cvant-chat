@@ -14,10 +14,10 @@
 				"ecmaVersion": 2020
 		},
 		"rules": {
-				/*"linebreak-style": [
+				"linebreak-style": [
 						"error",
-						"unix"
-				],,
+						"windows"
+				],/*,
 				"semi": [
 						"error",
 						"always"
@@ -46,6 +46,7 @@
 				"no-debugger": "error",
 				"no-var": "error",
 				"no-const-assign": "error",*/
+
 				"indent": ["error", "tab"],
 				"quotes": ["error",	"double"],
 				"one-var": ["error", "always"],

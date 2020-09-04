@@ -10,6 +10,9 @@ app.use(require("express").static(tool.string.pathFix(`${__dirname}/web`)));
 require("./server/index.js")(app, require("socket.io")(server));
 
 // Run "http" server.
-server.listen(3000, () => console.log("Run \"http\" server."));
+server.listen(
+	(3000 || process.env.port),
+	() => console.log("Run \"http\" server.")
+);
 
 require("./parser");
