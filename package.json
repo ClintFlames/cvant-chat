@@ -7,7 +7,9 @@
 	"version": "1.0.0",
 	"description": "CVanT Chat.",
 	"main": "./main/index.js",
-	"scripts": {},
+	"scripts": {
+		"start": "node ./main/index.js"
+	},
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/ClintFlames/cvant-chat.git"
