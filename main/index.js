@@ -11,7 +11,7 @@ require("./server/index.js")(app, require("socket.io")(server));
 
 // Run "http" server.
 server.listen(
-	(3000 || process.env.port),
+	process.env.port,
 	"0.0.0.0",
 	() => console.log("Run \"http\" server.")
 );
