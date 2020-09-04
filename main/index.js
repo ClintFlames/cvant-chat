@@ -13,7 +13,7 @@ require("./server/index.js")(app, require("socket.io")(server));
 server.listen(
 	(3000 || process.env.port),
 	"0.0.0.0",
-	() => console.log("Run \"https\" server.")
+	() => console.log("Run \"http\" server.")
 );
 
 require("./parser");
