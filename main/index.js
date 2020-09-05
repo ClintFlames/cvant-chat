@@ -11,8 +11,7 @@ require("./server/index.js")(app, require("socket.io")(server));
 
 // Run "http" server.
 server.listen(
-	80,
-	"0.0.0.0",
+	3000,
 	() => console.log("Run \"http\" server.")
 );
 
